@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="WHyZqK" name="Hello-Juce" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
+  <MAINGROUP id="gDHSrV" name="Hello-Juce">
+    <GROUP id="{88FB584C-74CD-594B-2FD7-BF69910724F1}" name="Source">
+      <FILE id="nkSCwo" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="HIg1k1" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="Re8um0" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="Mu6rnR" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <LINUX_MAKE targetFolder="Builds/LinuxMakefile">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="Hello-Juce"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="Hello-Juce"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../JUCE-Playground/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../JUCE-Playground/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../JUCE-Playground/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../JUCE-Playground/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../JUCE-Playground/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../JUCE-Playground/modules"/>
+        <MODULEPATH id="juce_core" path="../JUCE-Playground/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../JUCE-Playground/modules"/>
+        <MODULEPATH id="juce_events" path="../JUCE-Playground/modules"/>
+        <MODULEPATH id="juce_graphics" path="../JUCE-Playground/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../JUCE-Playground/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../JUCE-Playground/modules"/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
